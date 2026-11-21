@@ -9,7 +9,7 @@ Se hizo en vivo en el workshop **Del Diseño a la Web con Claude** (21/11), llev
 - **Hero**: presentación del grupo, botón al grupo de WhatsApp y datos rápidos (encuentros, asistentes, workshops).
 - **Encuentros**: una card por encuentro. "Ver detalle" abre un modal con la actividad, las fotos (o el banner) y los links y materiales.
 - **Próximos temas**: torta "explotada" en SVG con los temas del card sorting, su leyenda y un acceso a la encuesta.
-- **Footer** con redes y la página del grupo en IxDF.
+- **Footer** con el link a la página del grupo en IxDF.
 
 ## Stack
 
@@ -37,7 +37,7 @@ Todo el contenido está en arrays al principio del `<script>`, así que no hace 
 
 | Constante | Qué contiene |
 |---|---|
-| `sitio` | Bajada del hero, links de WhatsApp y de la encuesta, menú, datos del hero y redes del footer |
+| `sitio` | Bajada del hero, links de WhatsApp y de la encuesta, menú, datos del hero y links del footer (`redes`) |
 | `encuentros` | Un objeto por encuentro: fecha, etiqueta, título, resumen, portada, actividad, fotos o banner, detalles, temario y links |
 | `temas` | Temas del card sorting y cantidad de ideas. El gráfico, los porcentajes y la leyenda se calculan desde acá |
 
